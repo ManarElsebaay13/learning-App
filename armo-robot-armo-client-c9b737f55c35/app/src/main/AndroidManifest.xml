@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.armorobot.client">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.armo.client.utils.ARMOClientApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name="com.armo.client.home.HomeActivity"
+            android:configChanges="screenSize|orientation|navigation" />
+        <activity
+            android:name="com.armo.client.youtube.PlayListActivity"
+            android:configChanges="screenSize|orientation|navigation" />
+        <activity
+            android:name="com.armo.client.splash.SplashActivity"
+            android:configChanges="screenSize|orientation|navigation"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="5589331c132fc57366b6250ee70d2a0a32f81c74" />
+    </application>
+
+</manifest>

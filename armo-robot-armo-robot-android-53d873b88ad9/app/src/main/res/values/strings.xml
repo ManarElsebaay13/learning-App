@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ARMO Robot</string>
+
+    <string name="error_occurred">An error has occurred, please try again</string>
+
+    <string name="action_status">Status</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+
+    <string name="camera">Grant camera permission to continue</string>
+
+</resources>

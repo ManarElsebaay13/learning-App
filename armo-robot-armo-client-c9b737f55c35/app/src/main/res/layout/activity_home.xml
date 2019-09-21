@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.armo.client.home.HomeActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/homeactivity_appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include layout="@layout/toolbar"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <com.aurelhubert.ahbottomnavigation.AHBottomNavigationViewPager
+        android:id="@+id/homeactivity_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="?attr/actionBarSize"
+        android:layout_below="@id/homeactivity_appbarlayout"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.aurelhubert.ahbottomnavigation.AHBottomNavigation
+        android:id="@+id/homeactivity_bottomnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/homeactivity_viewpager"
+        app:layout_anchorGravity="bottom" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ARMO Client</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="teaching">Teaching</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="security">Security</string>
+
+    <string name="error_occurred">An error has occurred, please try again</string>
+
+    <string name="action_status">Status</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+
+    <string name="loading">Loading ...</string>
+
+    <string name="invalid_robot_code">Scanned QR code is invalid</string>
+</resources>

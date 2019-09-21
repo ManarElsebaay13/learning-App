@@ -1,0 +1,7 @@
+<resources>
+
+  <dimen name="default_margin">16dp</dimen>
+  <dimen name="status_textSize">20sp</dimen>
+  <dimen name="progress_dimen">120dp</dimen>
+
+</resources>
